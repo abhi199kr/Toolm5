@@ -5,7 +5,7 @@ import "./D1.css"
 const D1 = () => {
     
   return (
-    <div className='m-10 p-10 rounded-3xl bg-yellow-400 '>
+    <div className='m-5 md:m-10 p-5 md:p-10 rounded-3xl bg-yellow-400 '>
     <div className='md:p-10 flex flex-col lg:flex-row'>
     {/* 1st flex */}
     <div className='lg:w-1/2'>

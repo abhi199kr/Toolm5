@@ -5,72 +5,72 @@ import f3 from "../Image/f3.jpg"
 import "./Features.css"
 const Features = () => {
   return (
-    <div className='mx-auto w-10/12'>
-      <h1 className='text-5xl py-5 '>Our Features</h1>
-      <div className='bg-white rounded-2xl p-10'>
+    <div className='mx-auto p-5 md:p-0 md:w-10/12'>
+      <h1 className='text-3xl md:text-5xl py-5 '>Our Features</h1>
+      <div className='bg-white rounded-2xl p-5 md:p-10'>
       {/* flex */}
       <div className='flex flex-col lg:flex-row gap-5'>
       {/* 1st flex */}
-      <div className='bg-yellow-400 ro lg:w-1/3 rounded-2xl p-10'>
+      <div className='bg-yellow-400 ro lg:w-1/3 rounded-2xl p-5 md:p-10'>
       <p className='text-center'>Professional Tools Kit</p>
       <h1 className='text-center font-bold text-3xl'>Illustration Design</h1>
 
-        <img className='rounded-2xl h-80 my-10' src={f1}
+        <img className='rounded-2xl h-60 md:h-80 my-10 object-cover' src={f1}
          alt="fs" />
 
          <div className='flex'>
          <div className='grow'>
-         <button className='rounded-full font-bold flex px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
+         <button className='rounded-full font-bold flex px-2 md:px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
                 <p>Get Started</p>
                 {/* <p className='bg-black w-2 h-2 rounded-full'>2</p> */}
             </button>
 
          </div>
         
-            <div className='font-bold text-4xl'>18$</div>
+            <div className='font-bold text-2xl md:text-4xl'>18$</div>
 
          </div>
       </div>
 
 
-      <div className='bg-gray-300 ro lg:w-1/3 rounded-2xl p-10'>
+      <div className='bg-gray-300 ro lg:w-1/3 rounded-2xl p-5 md:p-10'>
       <p className='text-center'>Professional Tools Kit</p>
       <h1 className='text-center font-bold text-3xl'>Digital Art</h1>
 
-        <img className='rounded-2xl h-80 my-10' src={f2}
+        <img className='rounded-2xl h-60 md:h-80 my-10 object-cover' src={f2}
          alt="fs" />
 
          <div className='flex'>
          <div className='grow'>
-         <button className='rounded-full font-bold flex px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
+         <button className='rounded-full font-bold flex px-2 md:px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
                 <p>Get Started</p>
                 {/* <p className='bg-black w-2 h-2 rounded-full'>2</p> */}
             </button>
 
          </div>
         
-            <div className='font-bold text-4xl'>18$</div>
+            <div className='font-bold text-2xl md:text-4xl'>18$</div>
 
          </div>
       </div>
 
-      <div className='bg-lime-400 ro lg:w-1/3 rounded-2xl p-10'>
+      <div className='bg-lime-400 ro lg:w-1/3 rounded-2xl p-5 md:p-10'>
       <p className='text-center'>Professional Tools Kit</p>
       <h1 className='text-center font-bold text-3xl'>Print Design</h1>
 
-        <img className='rounded-2xl w-full h-80 my-10' src={f3}
+        <img className='rounded-2xl w-full h-60 object-cover md:h-80 my-10' src={f3}
          alt="fs" />
 
          <div className='flex'>
          <div className='grow'>
-         <button className='rounded-full font-bold flex px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
+         <button className='rounded-full font-bold flex px-2 md:px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
                 <p>Get Started</p>
                 {/* <p className='bg-black w-2 h-2 rounded-full'>2</p> */}
             </button>
 
          </div>
         
-            <div className='font-bold text-4xl'>18$</div>
+            <div className='font-bold text-2xl md:text-4xl'>18$</div>
 
          </div>
       </div>

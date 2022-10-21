@@ -3,7 +3,7 @@ import "./D2.css"
 
 const D2 = () => {
   return (
-    <div className='p-10'>
+    <div className='p-5 md:p-10'>
     <div className='flex flex-col md:flex-row gap-5'>
     <div className=' md:w-1/2 bg-gray-300 rounded-lg p-10'>
     <h1 className='text-4xl'>Professional Illustration Design</h1>
@@ -39,7 +39,7 @@ const D2 = () => {
     </div>
 
     <div className='md:w-1/2'>
-    <div className='p-10 bg-lime-300 rounded-lg'>
+    <div className='p-5 md:p-10 bg-lime-300 rounded-lg'>
     <h1 className='text-5xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
     <button className='mt-20 rounded-full font-bold flex px-5 py-3 border bottom-2 border-black hover:bg-yellow-500 bg-white'>
                 <p>Get Started</p>
@@ -48,7 +48,7 @@ const D2 = () => {
     </div>
 
     {/* 2nd below */}
-    <div className=' mt-10 p-10 bg-white  rounded-lg'>
+    <div className=' mt-10 p-5 md:p-10 bg-white  rounded-lg'>
     <h1 className='text-5xl'>Nullam consectetur dolor vel ex ullamcorper, non viverra neque aliquet. Vivamus sed nulla rhoncus.
     </h1>
     

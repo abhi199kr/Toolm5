@@ -4,10 +4,10 @@ import { AiFillRightCircle } from 'react-icons/ai';
 
 const Team = () => {
   return (
-    <div className='p-10'>
+    <div className='p-5 md:p-10'>
     <h1 className='font-bold text-5xl'>Our Team</h1>
     <p className='py-4 font-medium'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <div className='bg-yellow-400 p-10'>
+      <div className='bg-yellow-400 p-5 md:p-10'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
       <div className='rounded-2xl bg-gray-100 re'>
       <div class=" rounded overflow-hidden shadow-lg">

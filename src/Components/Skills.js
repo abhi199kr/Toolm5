@@ -1,4 +1,5 @@
 import React from 'react'
+import Progress from './Progress'
 
 const Skills = () => {
   return (
@@ -11,8 +12,11 @@ const Skills = () => {
       </div>
       <div className='lg:w-1/2'>
       <h1 className=' text-2xl '>Illustration Design</h1>
-      <h1 className=' text-2xl pt-20'>Print Design</h1>
-      <h1 className=' text-2xl pt-20'>Digital Art</h1>
+      <Progress bgcolor="orange" progress='84'  height={25} />
+      <h1 className=' text-2xl pt-10'>Print Design</h1>
+      <Progress bgcolor="orange" progress='73'  height={25} />
+      <h1 className=' text-2xl pt-10'>Digital Art</h1>
+      <Progress bgcolor="orange" progress='51'  height={25} />
       
 
 
